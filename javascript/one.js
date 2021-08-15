@@ -1,14 +1,4 @@
-/*check number is divisible by 7*/
-function number(x)
-{
-if(x % 7 ==0){
-    return true;
-}
-else{
-   return false;
-}
-}
-console.log(number(10));
-console.log(number(35));
-console.log(number(42));
-console.log(number(28));
+const num1 =parseInt(prompt('enter the first number'));
+const num2=parseInt(prompt('enter the second number'));
+const sum=num1+num2;
+console.log('the sum'+num1+'and'+num2+'is :'+sum);
