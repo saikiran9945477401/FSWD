@@ -1,5 +1,3 @@
-let i=7;
-while(i<=70){
-    console.log(i);
-    i=i+7;
+for(let i=1;i<=10;i++){
+    console.log(7*i);
 }
