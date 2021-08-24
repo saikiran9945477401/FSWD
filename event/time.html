@@ -5,15 +5,13 @@
 <h2>JavaScript HTML Events</h2>
 <p>Click the button to display the date.</p>
 
-<button onclick="displaydate()">The time is?</button>
+<button onclick="displaydate(this)">The time is?</button>
 
 <script>
-function displaydate() {
-  document.getElementById("abc").innerHTML =Date();
+function displaydate(obj) {
+  obj.innerHTML =Date();
 }
 </script>
-
-<p id="abc" >the date is</p>
 
 </body>
 </html> 
