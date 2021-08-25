@@ -5,79 +5,85 @@
     <style>
         h1{text-align: center;}
     </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script>
+        function mOver(obj) {
+         obj.style.backgroundColor="#1ec5e5";
+          obj.innerHTML = " srikanth"
+        }
+        
+function mOut(obj) {
+    obj.style.backgroundColor="yellow";
+  obj.innerHTML = "saikiran"
+}
+function k(abc) {
+    abc.style.backgroundColor="orange";
+  abc.innerHTML = "hari";
+}  
+function c(id) {
+    id.style.backgroundColor="green";
+  id.innerHTML = "rohan";
+} 
+function a(id) {
+    id.style.backgroundColor="blue";
+
+}
+function ab(id) {
+    id.style.backgroundColor=" red";
+    id.value=id.value.charAt(0).toUpperCase()+id.value.slice();
+
+}
+        </script>
 </head>
 <h1>
     JavaScript Events
 </h1>
 <body>
+    <div class ="container">
+        <div class ="row">
+            <div class ="col md-6">
     <h2>OnMouseover:</h2>
     <p>mouse over to change button background colour</p>
 <div onmouseover="mOver(this)" 
-style="background-color:red;width:150px;height:20px;padding:20px;">
+style="background-color:red;width:150px;height:20px;padding:30px;">
 Mouse Over </div>
+</div>
 
-<script>
-function mOver(obj) {
- obj.style.backgroundColor="#1ec5e5";
-  obj.innerHTML = "Telangana srikanth"
-}
-
-</script>
+<div class ="col md-6">
 <h2>OnMouseout:</h2>
     <p>mouse over to change button background colour</p>
 <div onmouseout="mOut(this)" 
-style="background-color:red;width:150px;height:20px;padding:20px;">
+style="background-color:red;width:150px;height:20px;padding:30px;">
 MouseOut </div>
+</div>
 
-<script>
 
-function mOut(obj) {
-    obj.style.backgroundColor="yellow";
-  obj.innerHTML = "saikiran"
-}
-</script>
-
+<div class ="col md-6">
 <h2>Onclick:</h2>
     <p>onclick to change button background colour</p>
-<div onclick="k(this)" style="background-color:red;width:150px;height:20px;padding:20px;">onclick</div>
-
-<script>
-function k(abc) {
-    abc.style.backgroundColor="orange";
-  abc.innerHTML = "hari";
-}
-</script>
+<div onclick="k(this)" style="background-color:red;width:150px;height:20px;padding:30px;">onclick</div>
+</div>
+</div>
+<div class ="row">
+    <div class ="col md-6">
 <h2>Ondblclick:</h2>
     <p>ondlbclick to change button background colour</p>
-<div ondblclick="c(this)" style="background-color:red;width:150px;height:20px;padding:20px;">ondblclick</div>
-
-<script>
-function c(id) {
-    id.style.backgroundColor="green";
-  id.innerHTML = "rohan";
-}
-</script>
+<div ondblclick="c(this)" style="background-color:red;width:150px;height:20px;padding:30px;">ondblclick</div>
+</div>
+<div class ="col md-6">
 <h2>Onfocus:</h2>
     <p>click to change background colour</p>
-<input type="text" onfocus="a(this)" style="width:150px;height:20px;padding:20px;">
+<input type="text" onfocus="a(this)" style="width:150px;height:20px;padding:30px;">
+</div>
 
-<script>
-function a(id) {
-    id.style.backgroundColor="blue";
-
-}
-</script>
+<div class ="col md-6">
 <h3>Onblur:</h3>
     <p>click to change background colour</p>
-<input type="text" onblur="ab(this)" style="width:150px;height:20px;padding:20px;">
+<input type="text" onblur="ab(this)" style="width:150px;height:20px;padding:30px;">
 
-<script>
-function ab(id) {
-    id.style.backgroundColor=" black";
-
-}
-</script>
-
+</div>
+</div>
+</div>
 
 </body>
 </html> 
