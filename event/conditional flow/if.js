@@ -1,4 +1,4 @@
-let hero=3;
+let hero=10;
 switch(hero){
 case 1 :
     tollywood ="pspk";
@@ -21,5 +21,7 @@ case 1 :
         case 6 :
             tollywood ="prabhas";
     break;
+    default:
+        tollywood="balaya"
     }
     console.log(tollywood);
