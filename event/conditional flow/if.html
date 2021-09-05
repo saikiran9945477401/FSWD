@@ -1,0 +1,20 @@
+<html>
+    <head>if else statement</head>
+    <body>
+        <p id="sai">todays date is:</P>
+        <script>
+            let date=new Date().getDate();
+            if(date<10){
+                greeting="month starting ";
+            }
+            else if(date<20){
+                greeting="middle of month";
+            }
+            else{
+                greeting="end of month";
+            }
+            document.getElementById("sai").innerHTML=greeting;
+        </script>
+
+    </body>
+</html>
