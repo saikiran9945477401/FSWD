@@ -1,0 +1,20 @@
+<html>
+    <head>if else statement</head>
+    <body>
+        <p id="sai">greeting acc to time:</P>
+        <script>
+            let time=new Date().getHours();
+            if(time<10){
+                greeting="good morning ";
+            }
+            else if(time<15){
+                greeting="good afternoon";
+            }
+            else{
+                greeting="good evening";
+            }
+            document.getElementById("sai").innerHTML=greeting;
+        </script>
+
+    </body>
+</html>
