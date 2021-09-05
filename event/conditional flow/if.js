@@ -1,24 +1,25 @@
-let day=new Date().getDay();
-switch(day){
-case 0 :
-    console.log("sun");
+let hero=3;
+switch(hero){
+case 1 :
+    tollywood ="pspk";
     break;
-    case 1:
-        console.log("mon");
+    case 2:
+        tollywood ="mb";
         break; 
-        case 2 :
-    console.log("tue");
+        case 3 :
+            tollywood ="ntr";
     break;
     case 3:
-        console.log("wed");
+        tollywood ="ramcharan";
         break;
         case 4:
-    console.log("thu");
+            tollywood ="chiru";
     break;
     case 5:
-        console.log("fri");
+        tollywood ="AA";
         break;
         case 6 :
-    console.log("sat");
+            tollywood ="prabhas";
     break;
     }
+    console.log(tollywood);
