@@ -1,4 +1,4 @@
-let hero=10;
+let hero=100;
 switch(hero){
 case 1 :
     tollywood ="pspk";
