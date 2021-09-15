@@ -1,4 +1,7 @@
-let fruits={sai:'apple',raj:'orange',kak:'bannana',ind:'pineapple',man:'butterfruit'};
-for(x in fruits){
-    console.log(fruits[x]);
-}
+let number=new Set([9,0,4]);
+number.add(0);
+number.add(0);
+number.add(4);
+number.add(3);
+number.add(7);
+console.log(number);
